@@ -25,6 +25,15 @@ namespace KelompokXX
             button.Clicked += Button_Lihat_Clicked;
             stacklayout.Children.Add(button);
 
+            button = new Button();
+            button.Text = "Ubah Data";
+            button.Clicked += Button_Ubah_Clicked;
+            stacklayout.Children.Add(button);
+
+            button = new Button();
+            button.Text = "Hapus Data";
+            button.Clicked += Button_Hapus_Clicked;
+            stacklayout.Children.Add(button);
 
             Content = stacklayout;
         }
@@ -36,6 +45,14 @@ namespace KelompokXX
         private async void Button_Lihat_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new HalamanLihatData());
+        }
+        private async void Button_Ubah_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HalamanUbahData());
+        }
+        private async void Button_Hapus_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HalamanHapusData());
         }
     
 	}

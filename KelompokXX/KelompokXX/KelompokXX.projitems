@@ -33,8 +33,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SignUpPageCS.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\HalamanHapusData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\HalamanLihatData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\HalamanTambahData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\HalamanUbahData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\HalamanUtama.cs" />
   </ItemGroup>
   <ItemGroup>

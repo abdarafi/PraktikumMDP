@@ -2,7 +2,7 @@
 {
     public static class UserLogin
     {
-        public static string Username = "KelompokXX";
-        public static string Password = "password";
+        public static string Username = "kelompok12";
+        public static string Password = "kelompok12";
     }
 }
